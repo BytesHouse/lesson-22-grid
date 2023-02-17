@@ -1,0 +1,27 @@
+.container {
+	display: grid;
+	grid-template-columns: 100px 100px 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px 100px 100px;
+	grid-gap: 20px;
+}
+
+.item-3,
+.item-7,
+.item-9,
+.item-11,
+.item-15,
+.item-17,
+.item-19,
+.item-23
+{
+	background-color: black !important;
+}
+
+.item-1,
+.item-5,
+.item-13,
+.item-21,
+.item-25
+{
+	background: orange !important;
+}
